@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TestPhonebookServiceApplication<services>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.phonebook.services.TestPhonebookServiceApplication",
+            "projectName": "services",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
