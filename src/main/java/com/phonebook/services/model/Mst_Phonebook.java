@@ -25,7 +25,7 @@ public class Mst_Phonebook extends BaseStandartModel {
 	private Long id;
 
     @NotBlank(message = "Name Name is required")
-    @Pattern(regexp = "^[a-zA-Z\\s]+$", message = "Subject name should contain only alphabetic characters")
+    @Pattern(regexp = "^[a-zA-Z\\s]+$", message = "Name should contain only alphabetic characters")
     private String name;
 
     @NotBlank(message = "Number is required")
